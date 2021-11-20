@@ -1,0 +1,95 @@
+body{
+    background-color: darksalmon;
+    margin: 0;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+
+
+.main{
+    width: 80%;
+    margin: 0 auto;
+    background-color: goldenrod;
+    text-align: center;
+}
+
+.main>h1{
+    margin: 0;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.flex>a{
+    margin-bottom: 8px;
+    width: calc(50% - 30px);
+    height: 345px;
+    border: 3px solid wheat;
+    position: relative;
+}
+
+
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.flex>a:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+    z-index: 2;
+}
+
+
+
+
+.Seder{
+    width: 100%;
+    height: 100%;
+    color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    top: 0;
+    font-size: 35px;
+    left: 0;
+    opacity: 0;
+    transition: 0.7s;
+}
+
+.Seder:hover{
+    opacity: 1;
+}
+
+
+
+.futer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+
+
+
+.futer>p>a{
+    text-decoration: none;
+    color: darkblue;
+}
